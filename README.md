@@ -8,15 +8,12 @@ The goal of this project is to develop an image classification system that can a
 An image classification model that classifies plant leaf images into healthy and diseased categories.
 
 ### Models 
-Baseline ML models:
+Baseline ML models:<br>
+Random Forest, XGboost
 
-Random Forest
-XGBoost
-
-Deep learining Models:
+Deep learining Models:<br>
 CNN
 
-Transfer Learning Models:
-ResNet50
-MobileNetV2
+Transfer Learning Models:<br>
+ResNet50, MobileNetV2
 
