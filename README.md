@@ -18,9 +18,5 @@ CNN
 
 Transfer Learning Models:
 ResNet50
-EfficientNetB0
 MobileNetV2
-DenseNet121
 
-Advanced Learning Model:
-Vision Transformer
