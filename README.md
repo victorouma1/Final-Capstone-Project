@@ -1,11 +1,9 @@
 # Final-Capstone-Project
 ### Problem Statement
-Crop diseases cause significant losses in agricultural productivity worldwide. Early and accurate identification of plant diseases can help farmers take timely action, reduce crop losses, and minimize excessive pesticide use. However, manual disease diagnosis requires expert knowledge and is often unavailable in rural areas.
-
-The goal of this project is to develop an image classification system that can automatically identify plant diseases from leaf images using machine learning and deep learning techniques.
+Recycling facilities receive mixed streams of plastic waste, and manual sorting is slow, expensive, and error-prone. Misclassified plastics contaminate recycling batches, reduce material quality, and increase processing costs. The goal of this project is to build a computer vision system that automatically classifies plastic waste images into categories
 
 ### Description
-An image classification model that classifies plant leaf images into healthy and diseased categories.
+This capstone combines computer vision, deep learning, model evaluation, deployment considerations, and explainability. The image classification models will be trained on a public dataset of plastic waste images, compare classical transfer learning approaches with modern architectures, and analyze model robustness to variations in lighting, background clutter, and object orientation.
 
 ### Models 
 Baseline ML models:<br>
@@ -17,3 +15,5 @@ CNN
 Transfer Learning Models:<br>
 ResNet50, MobileNetV2
 
+### Dataset
+http://tacodataset.org/
