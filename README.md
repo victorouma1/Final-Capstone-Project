@@ -9,9 +9,9 @@ This capstone project focuses on building an end-to-end NLP pipeline that automa
 
 ### Models 
 TF-IDF + Support Vector Machines (SVM) <br>
-AeroBERT / Aviation-BERT
-BERT
-RoBERTa
+AeroBERT / Aviation-BERT <br>
+BERT <br>
+RoBERTa <br>
 
 ### Dataset
 https://asrs.arc.nasa.gov/search/database.html
