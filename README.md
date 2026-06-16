@@ -5,11 +5,13 @@ The aviation industry relies heavily on Voluntary Safety Reporting Programs (VSR
 Currently, evaluating these reports is highly labor-intensive. This lag in manual triage means critical, emerging safety risks might linger unnoticed in databases for weeks
 
 ### Description
-This capstone project focuses on building an end-to-end NLP pipeline that automatically processes unstructured aviation safety narratives, predicts the primary Anomaly Category (e.g., Inflight Event, Equipment/Tooling, Communication Breakdown).
+This capstone project focuses on building an end-to-end NLP pipeline that automatically processes unstructured aviation safety narratives, predicts the primary Anomaly Category (e.g., Inflight Event, Equipment/Tooling, Communication Breakdown) and assesses the Risk Severity Level of the incident
 
 ### Models 
-TF-IDF + Support Vector Machines (SVM)
+TF-IDF + Support Vector Machines (SVM) <br>
 AeroBERT / Aviation-BERT
+BERT
+RoBERTa
 
 ### Dataset
 https://asrs.arc.nasa.gov/search/database.html
