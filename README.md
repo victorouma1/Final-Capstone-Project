@@ -13,10 +13,11 @@ Key Features: Narrative, Anomaly type <br>
 
 ### Tools Used:
 Language: Python 3.13 <br>
-Data Manipulation: Pandas, NumPy, SciPy <br>
+Data Manipulation: Pandas, NumPy <br>
 Data Visualization: Matplotlib, Seaborn <br>
-Machine Learning models: <br>
-TF-IDF + Support Vector Machines (SVM) <br>
+Machine learning:Scikit-learn, keras
+Models: <br>
+TF-IDF + Baseline Classification Model (e.g. SVM) <br>
 BERT <br>
 RoBERTa <br>
 AeroBERT / Aviation-BERT <br>
