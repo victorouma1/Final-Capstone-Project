@@ -31,7 +31,7 @@ Deployment : Streamlit
 #### 3. Modeling & Evaluation
 
 ### Authors & Acknowledgments
-Victor Ouma - Data Scientist
+Victor Ouma - Data Scientist <br>
 Thanks to Zindua School for guidance during this capstone project.
 
 
