@@ -24,11 +24,24 @@ AeroBERT / Aviation-BERT <br>
 Deployment : Streamlit
 
 ### Methodology
-#### 1. Data Cleaning Exploratory Data Analysis (EDA)
+#### 1. Data Cleaning
+Isolated target variable and narrative then dropped the rest of the columns<br>
+Changed column name for readability<br>
+Droppped missing values they were less than 1% of dataset<br>
 
 #### 2. Data Preprocessing & Feature Engineering
+1. Made Narrative Lowercase<br>
+2. Removed punctuation<br>
+3. Removed spelling mistakes<br>
+4. Removed Stopwords <br>
+5. Dealt with excessive whitspaces <br>
+6. Tokenization<br>
+7. Lemmitisation<br>
 
 #### 3. Modeling & Evaluation
+Use confusion matrix<br>
+Main Evaluation metrics: Recall, Precison, F1-score<br>
+Error Analysis to see where model goes wrong<br>
 
 ### Authors & Acknowledgments
 Victor Ouma - Data Scientist <br>
