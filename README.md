@@ -37,6 +37,7 @@ Droppped missing values they were less than 1% of dataset<br>
 5. Dealt with excessive whitspaces <br>
 6. Tokenization<br>
 7. Lemmitisation<br>
+8. Use contextual embeddings to capture deep contextual meanings
 
 #### 3. Modeling & Evaluation
 Use confusion matrix<br>
