@@ -12,9 +12,9 @@ Size: 30,000 observations, 125 columns <br>
 Key Features: Narrative, Anomaly type <br>
 <br>
 Target Variable Catgeories and their value counts:<br>
-|Issue Catgeory|Value count|
-|:--------------:||:------------:|
-|Human Factors||10823|
+|Issue Catgeory                                |Value count|
+|:--------------:                              |:---------:|
+|Human Factors                                 |10823      |
 Aircraft                                               9802<br>
 Procedure                                              2913<br>
 Ambiguous                                              2490<br>
@@ -76,7 +76,7 @@ Droppped missing values they were less than 1% of dataset<br>
 
 ### 3. How Models work
 ***BERT***
-![alt text](image.png)
+![alt text](<Image Files/image.png>)
 BERT changed the way machines interpret human language. Short for Bidirectional Encoder Representations from Transformers, it allows models to understand context by reading text in both directions
 
 BERT relies on a Transformer (the attention mechanism that learns contextual relationships between words in a text). A basic Transformer consists of an encoder to read the text input and a decoder to produce a prediction for the task. Since BERT’s goal is to generate a language representation model, it only needs the encoder part.
@@ -84,7 +84,7 @@ BERT relies on a Transformer (the attention mechanism that learns contextual rel
 ***ROBERTA***
 RoBERTa (Robustly Optimized BERT Approach) is a state-of-the-art language representation model developed by Facebook AI. It is based on the original BERT (Bidirectional Encoder Representations from Transformers) architecture but differs in several key ways.
 
-![alt text](image-1.png)
+![alt text](<Image Files/image-1.png>)
 
 One of the ways is dynamic masking which involves randomly masking different tokens at different points during pre-training as compared to static masking use by BERT which uses the same mask every time
 
