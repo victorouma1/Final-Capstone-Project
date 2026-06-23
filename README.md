@@ -10,6 +10,39 @@ The aviation industry relies heavily on Voluntary Safety Reporting Programs (VSR
 Source: https://asrs.arc.nasa.gov/search/database.html <br>
 Size: 30,000 observations, 125 columns <br>
 Key Features: Narrative, Anomaly type <br>
+<br>
+Target Variable Catgeories and their value counts:<br>
+Human Factors                                         10823<br>
+Aircraft                                               9802<br>
+Procedure                                              2913<br>
+Ambiguous                                              2490<br>
+Weather                                                1059<br>
+Environment - Non Weather Related                       930<br>
+Airport                                                 786<br>
+Chart Or Publication                                    447<br>
+Airspace Structure                                      411<br>
+ATC Equipment / Nav Facility / Buildings                410<br>
+Company Policy                                          408<br>
+Software and Automation                                 177<br>
+Equipment / Tooling                                     103<br>
+Staffing                                                 96<br>
+MEL                                                      69<br>
+Incorrect / Not Installed / Unavailable Part             55<br>
+Manuals                                                  48<br>
+Logbook Entry                                            11<br>
+Primary Problem                                           8<br>
+Human Factors; Aircraft                                   4<br>
+Procedure; Aircraft                                       3<br>
+Weather; Human Factors                                    2<br>
+Company Policy; Aircraft                                  1<br>
+Aircraft; Aircraft                                        1<br>
+Ambiguous; Human Factors                                  1<br>
+Human Factors; Weather                                    1<br>
+Human Factors; Procedure                                  1<br>
+Chart Or Publication; Aircraft                            1<br>
+ATC Equipment / Nav Facility / Buildings; Aircraft        1<br>
+Aircraft; Airspace Structure                              1<br>
+
 
 ### Tools Used:
 Language: Python 3.13 <br>
