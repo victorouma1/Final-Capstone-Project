@@ -12,38 +12,38 @@ Size: 30,000 observations, 125 columns <br>
 Key Features: Narrative, Anomaly type <br>
 <br>
 Target Variable Catgeories and their value counts:<br>
-|Issue Catgeory                                |Value count|
-|:--------------:                              |:---------:|
-|Human Factors                                 |10823      |
-Aircraft                                               9802<br>
-Procedure                                              2913<br>
-Ambiguous                                              2490<br>
-Weather                                                1059<br>
-Environment - Non Weather Related                       930<br>
-Airport                                                 786<br>
-Chart Or Publication                                    447<br>
-Airspace Structure                                      411<br>
-ATC Equipment / Nav Facility / Buildings                410<br>
-Company Policy                                          408<br>
-Software and Automation                                 177<br>
-Equipment / Tooling                                     103<br>
-Staffing                                                 96<br>
-MEL                                                      69<br>
-Incorrect / Not Installed / Unavailable Part             55<br>
-Manuals                                                  48<br>
-Logbook Entry                                            11<br>
-Primary Problem                                           8<br>
-Human Factors; Aircraft                                   4<br>
-Procedure; Aircraft                                       3<br>
-Weather; Human Factors                                    2<br>
-Company Policy; Aircraft                                  1<br>
-Aircraft; Aircraft                                        1<br>
-Ambiguous; Human Factors                                  1<br>
-Human Factors; Weather                                    1<br>
-Human Factors; Procedure                                  1<br>
-Chart Or Publication; Aircraft                            1<br>
-ATC Equipment / Nav Facility / Buildings; Aircraft        1<br>
-Aircraft; Airspace Structure                              1<br>
+|Issue Catgeory                                     |Value count|
+|:--------------:                                   |:---------:|
+|Human Factors                                      |10823      |
+|Aircraft                                           |9802       |
+|Procedure                                          |2913       |
+|Ambiguous                                          |2490       |
+|Weather                                            |1059       |
+|Environment - Non Weather Related                  |930        |
+|Airport                                            |786        |
+|Chart Or Publication                               |447        |
+|Airspace Structure                                 |411        |
+|ATC Equipment / Nav Facility / Buildings           |410        |
+|Company Policy                                     |408        |
+|Software and Automation                            |177        |
+|Equipment / Tooling                                |103        |
+|Staffing                                           |96         |
+|MEL                                                |69         |
+|Incorrect / Not Installed / Unavailable Part       |55         |
+|Manuals                                            |48         |
+|Logbook Entry                                      |11         |
+|Primary Problem                                    |8          |
+|Human Factors; Aircraft                            |4          |
+|Procedure; Aircraft                                |3          |
+|Weather; Human Factors                             |2          |
+|Company Policy; Aircraft                           |1          |
+|Aircraft; Aircraft                                 |1          |
+|Ambiguous; Human Factors                           |1          |
+|Human Factors; Weather                             |1          |
+|Human Factors; Procedure                           |1          |
+|Chart Or Publication; Aircraft                     |1          |
+|ATC Equipment / Nav Facility / Buildings; Aircraft |1          |
+|Aircraft; Airspace Structure                       |1          |
 
 
 ### Tools Used:
