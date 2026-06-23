@@ -12,7 +12,9 @@ Size: 30,000 observations, 125 columns <br>
 Key Features: Narrative, Anomaly type <br>
 <br>
 Target Variable Catgeories and their value counts:<br>
-Human Factors                                         10823<br>
+|Issue Catgeory|Value count|
+|:--------------:||:------------:|
+|Human Factors||10823|
 Aircraft                                               9802<br>
 Procedure                                              2913<br>
 Ambiguous                                              2490<br>
@@ -72,7 +74,26 @@ Droppped missing values they were less than 1% of dataset<br>
 7. Lemmitisation<br>
 8. Use contextual embeddings to capture deep contextual meanings
 
-#### 3. Modeling & Evaluation
+### 3. How Models work
+***BERT***
+![alt text](image.png)
+BERT changed the way machines interpret human language. Short for Bidirectional Encoder Representations from Transformers, it allows models to understand context by reading text in both directions
+
+BERT relies on a Transformer (the attention mechanism that learns contextual relationships between words in a text). A basic Transformer consists of an encoder to read the text input and a decoder to produce a prediction for the task. Since BERT’s goal is to generate a language representation model, it only needs the encoder part.
+
+***ROBERTA***
+RoBERTa (Robustly Optimized BERT Approach) is a state-of-the-art language representation model developed by Facebook AI. It is based on the original BERT (Bidirectional Encoder Representations from Transformers) architecture but differs in several key ways.
+
+![alt text](image-1.png)
+
+One of the ways is dynamic masking which involves randomly masking different tokens at different points during pre-training as compared to static masking use by BERT which uses the same mask every time
+
+In the original BERT model, the pre-training phase includes a next-sentence prediction (NSP) task, where the model is trained to predict whether a given sentence is the next sentence in a text or not.In RoBERTa, this NSP loss is not used during pre-training. RoBERTa is able to learn a more reliable representation of the language by training the model on complete sentences as opposed to sentence pairs.
+
+***AEROBERT***
+A BERT model which has been pretrained on aeronautical terms
+
+#### 4. Modeling & Evaluation
 Use confusion matrix<br>
 Main Evaluation metrics: Recall, Precison, F1-score<br>
 Error Analysis to see where model goes wrong<br>
