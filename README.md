@@ -96,9 +96,8 @@ In the original BERT model, the pre-training phase includes a next-sentence pred
 A BERT model which has been pretrained on aeronautical terms
 
 #### 4. Modeling & Evaluation
-Use confusion matrix<br>
-Main Evaluation metrics: Recall, Precison, F1-score<br>
-Error Analysis to see where model goes wrong<br>
+Main Evaluation metrics: F1-score<br>
+Model Explainability<br>
 
 ### Authors & Acknowledgments
 Victor Ouma - Data Scientist <br>
