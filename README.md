@@ -99,6 +99,11 @@ A BERT model which has been pretrained on aeronautical terms
 Main Evaluation metrics: F1-score<br>
 Model Explainability<br>
 
+### 5. Error Analysis
+Confusion matrix <br>
+Most confident errors <br>
+Most influential tokens <br>
+
 ### Authors & Acknowledgments
 Victor Ouma - Data Scientist <br>
 Thanks to Zindua School for guidance during this capstone project.
