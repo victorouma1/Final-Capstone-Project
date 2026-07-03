@@ -104,6 +104,10 @@ Confusion matrix <br>
 Most confident errors <br>
 Most influential tokens <br>
 
+### Deployed model
+https://aerobert-safety-report-classifier.streamlit.app/
+
+
 ### Authors & Acknowledgments
 Victor Ouma - Data Scientist <br>
 Thanks to Zindua School for guidance during this capstone project.
