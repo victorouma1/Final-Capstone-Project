@@ -214,7 +214,7 @@ if load_clicked or (
         try:
             st.session_state.model_bundle = load_model(model_path)
             st.session_state.model_path_loaded = model_path
-            st.success("Model loaded successfully! 🎉")
+            st.success("Model loaded successfully!")
         except Exception as e:
             st.session_state.model_bundle = None
             st.error(f"Couldn't load model from '{model_path}':\n\n{e}")
@@ -445,7 +445,7 @@ with tab_csv:
 
                     csv_bytes = results_df.to_csv(index=False).encode("utf-8")
                     st.download_button(
-                        "⬇️ Download results as CSV",
+                        "Download results as CSV",
                         data=csv_bytes,
                         file_name="aerobert_predictions.csv",
                         mime="text/csv",
